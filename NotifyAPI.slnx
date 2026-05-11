@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Application/Application.csproj" />
+  <Project Path="Infrastructure/Infrastructure.csproj" />
+  <Project Path="Shared/Shared.csproj" />
+  <Project Path="WebAPI/WebApi.csproj" DisplayName="WebApi" />
+</Solution>
