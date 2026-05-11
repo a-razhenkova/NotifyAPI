@@ -1,0 +1,57 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Notify API",
+    "description": "<p>A minimal API that consumes messages and sends notifications.</p>",
+    "contact": {
+      "name": "Aleksandrina Razhenkova",
+      "url": "https://github.com/a-razhenkova",
+      "email": "a.razhenkova@gmail.com"
+    },
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "/api/health/heartbeat": {
+      "get": {
+        "tags": [
+          "WebApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/health": {
+      "get": {
+        "tags": [
+          "WebApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/health/checks": {
+      "get": {
+        "tags": [
+          "WebApi"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "WebApi"
+    }
+  ]
+}
